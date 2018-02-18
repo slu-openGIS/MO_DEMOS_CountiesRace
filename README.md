@@ -14,7 +14,7 @@ These data contain total population counts as well as counts for census race cat
 The [`gateway` package](https://github.com/slu-openGIS/gateway) can be used to download and import these data as a simple feature object:
 
 ```r
-jeffCity <- gateway::gw_get_repo("MO_DEMOS_JeffCityRegion")
+moCounties <- gateway::gw_get_repo("MO_DEMOS_CountiesRace")
 ```
 
 ## About the SLU DSS
